@@ -9,7 +9,7 @@ public class Tetris implements Runnable{
 	}
 	
 	public static void main(String [] args) {
-		new TetrisScoresDatabase("mysql");
+		new TetrisFrame();
 	}
 }
 
