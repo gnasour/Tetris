@@ -1,3 +1,5 @@
+package Tetris;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Connection;
@@ -20,7 +22,9 @@ public class TetrisScoresDatabase{
 	private static String serverName;
 	private static String portNo;
 	private static String sqlStmt;
+	
 	//Constructor to create a new database connection
+	
 	public TetrisScoresDatabase(String database){
 		try {
 		}catch(Exception e) {

@@ -1,6 +1,8 @@
+package Tetris;
+
 import javax.swing.JFrame;
 
-class TetrisFrame extends JFrame{
+public class TetrisFrame extends JFrame{
 
     public TetrisFrame(){
         super("Hello, World!");
